@@ -1,0 +1,19 @@
+# 核心依赖 - 必需
+pyTelegramBotAPI>=4.17.0
+requests>=2.31.0
+websocket-client>=1.7.0
+python-dotenv>=1.0.0
+apscheduler>=3.10.0
+loguru>=0.7.0
+
+# 可选依赖 - 根据需要安装
+# pandas>=2.0.0  # 数据处理（可选）
+# numpy>=1.24.0  # 数值计算（可选）
+# matplotlib>=3.5.0  # 图表生成（可选）
+# plotly>=5.18.0  # 交互式图表（可选）
+# kaleido==0.2.1  # 图表导出（可选）
+
+# 其他可选
+# aiohttp>=3.9.0  # 异步HTTP（可选）
+# redis>=5.0.0  # Redis客户端（可选）
+# cryptography>=42.0.0  # 加密库（可选）

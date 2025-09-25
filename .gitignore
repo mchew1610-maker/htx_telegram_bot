@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# 环境配置
+.env
+.env.local
+.env.*.local
+
+# 数据文件
+data/
+logs/
+*.log
+*.db
+*.sqlite
+
+# 图表文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 测试
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.hypothesis/
+
+# Docker
+docker-compose.override.yml
+
+# 备份
+*.bak
+*.backup
+*.old
+
+# 临时文件
+tmp/
+temp/
+*.tmp
